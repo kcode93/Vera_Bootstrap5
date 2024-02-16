@@ -7,9 +7,12 @@
 	}
 }
 
-//Background image with Dark Overlay
-@function bg-img-dark-overlay($imagePath) {
-	@return linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+//Background image with Dark Overlay ($darkness range: 0.1 - 1.0)
+@function bg-img-dark-overlay($imagePath, $darkness-1, $darkness-2) {
+	@return linear-gradient(
+			rgba(0, 0, 0, $darkness-1),
+			rgba(0, 0, 0, $darkness-2)
+		),
 		url($imagePath);
 }
 

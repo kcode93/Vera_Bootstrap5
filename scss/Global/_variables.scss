@@ -10,7 +10,8 @@ $body-color: $light;
 $navbar-nav-border-color: $white;
 
 /** Units of Measure **/
-//$container-width: example;
+
+//nav
 $navbar-nav-border-size: 0.1rem;
 $navbar-nav-border-radius-size: 3.125rem;
 $navbar-padding-y-val: 1rem;
@@ -19,7 +20,17 @@ $navbar-brand-logo-width: 100%;
 $navbar-toggler-padding-x-val: 0.6rem;
 $navbar-toggler-padding-y-val: 0.3rem;
 
+//header
+$header-min-height-val: 37.5rem;
+$header-vertical-decoration-width: 1.5rem;
+$header-vertical-decoration-top: 12%;
+// $header-vertical-decoration-bottom: 0;
+// $header-vertical-decoration-left: 0;
+// $header-vertical-decoration-right: 0;
+
 /** Fonts **/
+$xl-text-size: 1rem * 4.0625;
+$xl-text-size-mobile: 1rem * 3.125;
 $primary-font: 'Poppins', sans-serif;
 //$secondary-font: example;
 
