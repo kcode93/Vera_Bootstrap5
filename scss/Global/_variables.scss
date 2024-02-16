@@ -7,14 +7,17 @@ $dark: #0c0c0e;
 $light: #f4f4f4;
 $body-bg: $dark;
 $body-color: $light;
+$navbar-nav-border-color: $white;
 
 /** Units of Measure **/
 //$container-width: example;
+$navbar-nav-border-size: 0.1rem;
+$navbar-nav-border-radius-size: 3.125rem;
 $navbar-padding-y-val: 1rem;
 $navbar-nav-link-padding-x-val: 1rem;
 $navbar-brand-logo-width: 100%;
-$navbar-toggler-padding-x-val: 2rem;
-$navbar-toggler-padding-y-val: 1rem;
+$navbar-toggler-padding-x-val: 0.6rem;
+$navbar-toggler-padding-y-val: 0.3rem;
 
 /** Fonts **/
 $primary-font: 'Poppins', sans-serif;
@@ -31,7 +34,7 @@ $navbar-light-toggler-border-color: $white !default;
 $navbar-nav-link-padding-x: $navbar-nav-link-padding-x-val !default;
 $navbar-padding-y: $navbar-padding-y-val !default;
 $navbar-toggler-padding-y: $navbar-toggler-padding-y-val !default;
-$navbar-toggler-padding-x: $navbar-toggler-padding-y-val !default;
+$navbar-toggler-padding-x: $navbar-toggler-padding-x-val !default;
 
 //Spacers
 $spacer: 1rem !default;
@@ -49,5 +52,5 @@ $spacers: (
 
 //Typography
 $line-height-base: 1.7 !default;
-//Headings (h1,h2,h3...)
+// //Headings (h1,h2,h3...)
 $headings-margin-bottom: $spacer * 1 !default;
