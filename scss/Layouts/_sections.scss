@@ -37,3 +37,10 @@
 		}
 	}
 }
+
+.expertise {
+	.card {
+		//border: 2px solid white !important;
+		min-height: $expertise-cards-min-height;
+	}
+}
