@@ -24,9 +24,10 @@ $navbar-toggler-padding-y-val: 0.3rem;
 $header-min-height-val: 37.5rem;
 $header-vertical-decoration-width: 1.5rem;
 $header-vertical-decoration-top: 12%;
-// $header-vertical-decoration-bottom: 0;
-// $header-vertical-decoration-left: 0;
-// $header-vertical-decoration-right: 0;
+$header-vertical-decoration-right: 0;
+
+//utilities
+$cards-min-height: 32.875rem;
 
 /** Fonts **/
 $xl-text-size: 1rem * 4.0625;

@@ -9,3 +9,16 @@
 	background-color: $primary;
 	margin: 0.5rem 0;
 }
+
+.vertical-decoration {
+	&-left {
+		width: $header-vertical-decoration-width;
+		top: $header-vertical-decoration-top;
+	}
+
+	&-right {
+		width: $header-vertical-decoration-width;
+		top: $header-vertical-decoration-top;
+		right: $header-vertical-decoration-right;
+	}
+}

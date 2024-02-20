@@ -1,1 +1,39 @@
-//Custom Styles HERE...
+.solutions {
+	.card {
+		min-height: $cards-min-height;
+
+		.card-body {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.card-footer {
+			padding: 0.5rem 1rem;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+
+			.badge {
+				margin: 0.5rem;
+			}
+		}
+	}
+}
+
+.details {
+	.details-img {
+		&-A {
+			border-bottom: 0.5rem solid $primary;
+			border-right: 0.5rem solid $primary;
+		}
+
+		&-B {
+			border-bottom: 0.5rem solid $primary;
+			border-left: 0.5rem solid $primary;
+		}
+	}
+}

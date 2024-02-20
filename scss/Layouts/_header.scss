@@ -3,11 +3,4 @@
 		center no-repeat;
 	background-size: cover;
 	min-height: $header-min-height-val;
-
-	.vertical-decoration {
-		&-left {
-			width: $header-vertical-decoration-width;
-			top: $header-vertical-decoration-top;
-		}
-	}
 }
