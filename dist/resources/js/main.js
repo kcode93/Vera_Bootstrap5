@@ -22,6 +22,7 @@ function navStyleOnScroll(){
             //navbar.classList.add('bg-dark');
             navbar.classList.add('border-bottom');
             navbar.classList.add('border-primary');
+            navbar.classList.add('border-2');
             navbar.classList.add('fixed-top');
 
             
@@ -30,6 +31,7 @@ function navStyleOnScroll(){
             //navbar.classList.remove('bg-dark');
             navbar.classList.remove('border-bottom');
             navbar.classList.remove('border-primary');
+            navbar.classList.remove('border-2');
             navbar.classList.remove('fixed-top');
         }
     });

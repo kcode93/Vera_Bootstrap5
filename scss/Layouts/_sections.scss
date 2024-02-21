@@ -44,3 +44,21 @@
 		min-height: $expertise-cards-min-height;
 	}
 }
+
+.pricing {
+	.card {
+		transition: all 0.5s ease-in-out;
+		border: $cards-border-size solid transparent;
+		min-height: $pricing-card-min-height;
+
+		.card-body {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+		}
+
+		&:hover {
+			border: $cards-border-size solid $primary;
+		}
+	}
+}

@@ -37,6 +37,22 @@
 			font-size: $xl-text-size-mobile;
 		}
 	}
+
+	.pricing {
+		.card {
+			min-height: 32rem;
+
+			.card-body {
+				display: flex;
+				flex-direction: column;
+				gap: 2;
+			}
+
+			&:hover {
+				border: $cards-border-size solid $primary;
+			}
+		}
+	}
 }
 
 // X-Large devices (large desktops, less than 1400px)
