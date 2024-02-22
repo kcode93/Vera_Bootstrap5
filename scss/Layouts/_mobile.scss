@@ -2,12 +2,34 @@
 
 // Small devices (landscape phones, less than 768px)
 @include media-breakpoint-down(sm) {
-	//Custom Styles Here
+	// .pricing {
+	// 	.card {
+	// 		height: $pricing-card-min-height - 5rem !important;
+	// 	}
+	// }
 }
 
 // Medium devices (tablets, less than 992px)
 @include media-breakpoint-down(md) {
-	//Custom Styles Here
+	// .pricing {
+	// 	.card {
+	// 		// min-height: $pricing-card-min-height;
+
+	// 		.card-body {
+	// 			.card-price {
+	// 				font-size: $pricing-card-price-size / 2;
+	// 			}
+
+	// 			.card-title {
+	// 				font-size: $pricing-card-title;
+	// 			}
+	// 		}
+
+	// 		&:hover {
+	// 			border: $cards-border-size solid $primary;
+	// 		}
+	// 	}
+	// }
 }
 
 // Large devices (desktops, less than 1200px)
@@ -38,21 +60,13 @@
 		}
 	}
 
-	.pricing {
-		.card {
-			min-height: 32rem;
-
-			.card-body {
-				display: flex;
-				flex-direction: column;
-				gap: 2;
-			}
-
-			&:hover {
-				border: $cards-border-size solid $primary;
-			}
-		}
-	}
+	// .pricing {
+	// 	.card {
+	// 		h3 {
+	// 			font-size: 2.5rem !important;
+	// 		}
+	// 	}
+	// }
 }
 
 // X-Large devices (large desktops, less than 1400px)

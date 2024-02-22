@@ -49,12 +49,20 @@
 	.card {
 		transition: all 0.5s ease-in-out;
 		border: $cards-border-size solid transparent;
-		min-height: $pricing-card-min-height;
+		// min-height: $pricing-card-min-height;
 
 		.card-body {
 			display: flex;
 			flex-direction: column;
 			justify-content: space-around;
+
+			.card-price {
+				font-size: $pricing-card-price-size;
+			}
+
+			.card-title {
+				font-size: $pricing-card-title;
+			}
 		}
 
 		&:hover {

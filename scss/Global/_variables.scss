@@ -28,9 +28,17 @@ $header-vertical-decoration-right: 0;
 
 //utilities
 $cards-min-height: 32.875rem;
+
+/** Sections **/
+//expertise
 $expertise-cards-min-height: 21.875rem;
-$pricing-card-min-height: 28rem;
+
+//pricing
+$pricing-card-min-height: 35rem;
 $cards-border-size: 0.125rem;
+$pricing-card-price-size: 3rem;
+$pricing-card-title: 2.5rem;
+// $pricing-card-list-items-fs:
 
 /** Fonts **/
 $xl-text-size: 1rem * 4.0625;
